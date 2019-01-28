@@ -53,7 +53,19 @@ img.pic3{
 }
 
 /* overview */
-#myBtn{
+.overview {
+    margin-top: 10px;
+}
+
+#myBtn {
+    color: #ff891e;
+    cursor: pointer;
+}
+#myBtn1 {
+    color: #ff891e;
+    cursor: pointer;
+}
+#myBtn2 {
     color: #ff891e;
     cursor: pointer;
 }
@@ -63,6 +75,12 @@ p.text{
 }
 
 #more{
+    display: none;
+}
+#more1{
+    display: none;
+}
+#more2{
     display: none;
 }
 
@@ -92,9 +110,31 @@ p.text{
     margin-top: -40px;
     margin-left: 365px;
     font-weight: bold;
-  }
+}
   
-  .container .btn:hover {
+.container .btn:hover {
     background-color: black;
-  }
+}
 
+.title-nearby {
+    margin-bottom: 20px;
+}
+
+#nearby{
+    margin-left: 205px;
+    margin-top: 20px;
+    width: 320px;
+}
+
+.card #img-nearby{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#card p{
+    margin-top: -6px;
+    margin-bottom: 1px;
+}

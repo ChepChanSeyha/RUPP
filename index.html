@@ -19,8 +19,8 @@
     <nav class="nav justify-content-center navbar navbar-static-top">
         <div class="nav">
             <a class="nav-link active now" href="#">Add to Card</a>
-            <a class="nav-link" href="#">Overview</a>
-            <a class="nav-link" href="#">What to Expect</a>
+            <a class="nav-link" href="#overview">Overview</a>
+            <a class="nav-link" href="#whattoexpect">What to Expect</a>
             <a class="nav-link" href="#">Inclusions and Exclusions</a>
             <a class="nav-link" href="#">Schedule</a>
             <a class="nav-link" href="#">Similar Tour Packages</a>
@@ -68,25 +68,112 @@
             <!-- first layout -->
             <div class="col-md-6 portfolio-item">
                 <!-- overview -->
-                <div class="overview">
+                <div id="overview">
                     <h1>Overview</h1>
                     <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper
                         <span id="dots">...</span><span id="more">ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-                    <p onclick="myFunction()" id="myBtn">Read more</p>
+                    <p onclick="myFunction1()" id="myBtn">Read more</p>
                 </div>
                 <!--Google map-->
                 <div class="mapouter">
                     <div class="gmap_canvas">
                         <iframe width="738" height="401" id="gmap_canvas" src="https://maps.google.com/maps?q=angkor%20wat&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                         <a href="https://www.pureblack.de/internetagentur/"></a>
-                    </div><style>.mapouter{text-align:right;height:350px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:600px;}</style>
+                    </div><style>.mapouter{text-align:right;height:350px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:700px;}</style>
+                </div>
+                <hr>
+                <!-- what to expect -->
+                <div id="whattoexpect">
+                        <h1>What to Expect</h1>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper
+                            <span id="dots1">...</span><span id="more1">ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                        <p onclick="myFunction2()" id="myBtn1">Read more</p>
+                </div>
+                <hr>
+                <!-- What to Bring -->
+                <div id="whattobring">
+                        <h1>What to Bring</h1>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper
+                            <span id="dots2">...</span><span id="more2">ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+                        <p onclick="myFunction3()" id="myBtn2">Read more</p>
                 </div>
             </div>
 
             <!-- second layout -->
             <div class="col-md-6 portfolio-item" id="gallery">
-                <img src="common/assets/temple4.jpg" alt="">
-                <button class="btn">View Full Gallery</button>
+                <!-- gallery -->
+                <div class="gallery">
+                    <img src="common/assets/temple4.jpg" alt="">
+                    <button class="btn">View Full Gallery</button>
+                </div>
+                <!-- Nearby place -->
+                <div id="nearby">
+                    <h3 class="title-nearby">Nearby Place</h3>
+                        <div class="card" style="background-color: #eee;">
+                            <div class="card-body">
+                                <!-- first card -->
+                                <div id="first-card">
+                                    <div class="card" id="card" style="background-color: white;">
+                                        <img src="common/assets/temple5.jpg" alt="" id="img-nearby">
+                                        <h6>Angkor Wat <br>Archaeological Park</h6>
+                                        <p><small class="text-muted">2Km</small></p>
+                                        <div id="rate">
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- second card -->
+                                <div id="first-card">
+                                    <div class="card" id="card" style="background-color: white;">
+                                        <img src="common/assets/temple5.jpg" alt="" id="img-nearby">
+                                        <h6>Angkor Wat <br>Archaeological Park</h6>
+                                        <p class="card-text"><small class="text-muted">2Km</small></p>
+                                        <div id="rate">
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- second card -->
+                                <div id="first-card">
+                                    <div class="card" id="card" style="background-color: white;">
+                                        <img src="common/assets/temple5.jpg" alt="" id="img-nearby">
+                                        <h6>Angkor Wat <br>Archaeological Park</h6>
+                                        <p><small class="text-muted">2Km</small></p>
+                                        <div id="rate">
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- second card -->
+                                <div id="first-card">
+                                    <div class="card" id="card" style="background-color: white;">
+                                        <img src="common/assets/temple5.jpg" alt="" id="img-nearby">
+                                        <h6>Angkor Wat <br>Archaeological Park</h6>
+                                        <p><small class="text-muted">2Km</small></p>
+                                        <div id="rate">
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
 
         </div>
